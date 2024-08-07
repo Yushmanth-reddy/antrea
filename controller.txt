@@ -1,0 +1,10 @@
+I0806 12:32:17.862551       1 log_file.go:93] Set log file max size to 104857600
+I0806 12:32:17.863067       1 controller.go:126] "Test log entry" GitHub_Username="Yushmanth-reddy" PodName="antrea-controller-6589f6db9-kwcgw"
+I0806 12:32:17.863086       1 controller.go:127] "Starting Antrea Controller" version="v2.2.0-dev-ffa1af6d.dirty"
+I0806 12:32:17.864730       1 client.go:89] No kubeconfig file was specified. Falling back to in-cluster config
+I0806 12:32:17.889473       1 selfsignedcert_provider.go:298] "Didn't find the Secret for TLS certificate and key" secret="antrea-controller-tls"
+I0806 12:32:17.889495       1 selfsignedcert_provider.go:260] "Generating self-signed cert"
+I0806 12:32:18.394941       1 selfsignedcert_provider.go:336] "Creating Secret to persist self-signed cert" secret=""
+I0806 12:32:18.403271       1 selfsignedcert_provider.go:276] "Writing certificate and key to the cert directory"
+I0806 12:32:18.715665       1 handler.go:275] Adding GroupVersion controlplane.antrea.io v1beta2 to ResourceManager
+I0806 12:32:18.716535       1 handler.go:275] Adding GroupVersion system.antrea.io v1beta1 to ResourceManager
